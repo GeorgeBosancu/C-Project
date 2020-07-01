@@ -1,3 +1,3 @@
 # C-Project
 
-habar n-am
+Am rezolvat si la birou!
