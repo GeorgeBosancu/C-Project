@@ -1,3 +1,3 @@
-# C-Project
+# C++ Project
 
-Am rezolvat si la birou!
+I'm learning...
