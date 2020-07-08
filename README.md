@@ -1,3 +1,1 @@
-# C++ Project
-
-I'm learning...
+# C++ Projects
