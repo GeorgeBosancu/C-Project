@@ -1,8 +1,0 @@
-<RCC>
-    <qresource prefix="/images_2">
-        <file>Icons_Notepad/img_521738.png</file>
-        <file>Icons_Notepad/print.png</file>
-        <file>Icons_Notepad/redo-512.png</file>
-        <file>Icons_Notepad/undo.png</file>
-    </qresource>
-</RCC>
