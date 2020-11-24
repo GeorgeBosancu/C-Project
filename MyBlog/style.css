@@ -1,0 +1,306 @@
+html {
+    padding: 30px 100px 30px 100px;
+}
+body {
+    font-family: 'Handlee', cursive;
+    font-size: 15pt;
+    background-color: #444242;
+    padding: 10px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 15pt;
+    color: #14B2C1;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+
+h1 span {
+    border: 4px dashed #14B2C1;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    font-size: 15pt;
+    margin: 0;
+}
+.img-cerc {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.sectiune {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-image: url("https://www.energids.be/nl/media/mediumimg/18/24tarif-exclusif-nuit.jpg");
+    background-size: cover;
+}
+#header img {
+    display: block;
+    color: #F4F4F4;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #F4F4F4;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.citat {
+    font-size: 11.5pt;
+    color: grey;
+    text-align: right;
+    margin-top: 10px;
+}
+.aliniere{
+    text-align: justify;
+    text-justify: inter-word;
+}
+table {
+    width: 100%;
+    font-size: 11pt;
+}
+table, th, td {
+    border: 1.5px solid #EAEAEA;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+}
+.film{
+    border: 3px solid white;
+    border-radius: 10%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.selectat {
+    background-color: #EF5E47;
+    font-weight: bold;
+    color: white;
+}
+li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress {
+    width: 70%;
+    height: 20px;
+    color: #E84E36;
+    background: #efefef;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+}
+progress::-webkit-progress-value {
+    background: #EF5E47;
+} 
+progress::-moz-progress-bar {
+    color: #3fb6b2;
+    background: #efefef;
+}
+
+.descriere{
+    font-size: 11.5pt;
+    color: grey;
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #3fb6b2;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #f36f48;
+}
+form {
+    text-align: center;
+    margin-top: 0;
+}
+.trimitere {
+    background-color: #EF5E47;
+    padding: 12px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+
+.trimitere:hover {
+    background-color: #E84E36;
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+.face {
+    transform: scale(0.4);
+    margin: 0 auto;
+    display: block;
+    margin-top: -35px;
+    margin-bottom: -25px;
+}
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}
+.copyright {
+    font-size: 8pt;
+    text-align: right;
+    padding-bottom: 10px;
+    color: grey;
+}
+
+/*Player*/
+
+.player {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.track-art {
+  margin: 25px;
+  height: 220px;
+  width: 220px;
+  background-image: url("https://images.pexels.com/photos/262034/pexels-photo-262034.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-size: cover;
+  border-radius: 15%;
+}
+
+
+.track-name {
+  font-size: 2.2rem;
+}
+
+.track-artist {
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.playpause-track, .prev-track, .next-track {
+  padding: 25px;
+  opacity: 0.8;
+
+  /* Smoothly transition the opacity */
+  transition: opacity .2s;
+}
+
+.playpause-track:hover, .prev-track:hover, .next-track:hover {
+  opacity: 1.0;
+}
+
+.slider_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+/* Modify the appearance of the slider */
+.seek_slider, .volume_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 1px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Modify the appearance of the slider thumb */
+.seek_slider::-webkit-slider-thumb, .volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.seek_slider:hover, .volume_slider:hover {
+  opacity: 1.0;
+}
+
+.seek_slider {
+  width: 60%;
+}
+
+.volume_slider {
+  width: 40%;
+}
+
+.current-time, .total-duration {
+  padding: 10px;
+  opacity: 0%;
+}
+
+i.fa-volume-down, i.fa-volume-up {
+  padding: 10px;
+}
+
+i.fa-play-circle, i.fa-pause-circle, i.fa-step-forward, i.fa-step-backward {
+  cursor: pointer;
+}
